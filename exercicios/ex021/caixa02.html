@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+            
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(97, 97, 97);
+            padding: 4px;
+            box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.315);
+        }
+        
+        nav > a {
+            text-decoration: none;
+            padding-left: 10px;
+            padding-right: 40px;
+            color: white;
+            
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            color: blue;
+            
+        }
+
+        main { 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px 0px;
+            box-shadow: 3px 4px 4px 1px rgba(0, 0, 0, 0.404)
+        
+        }
+
+        main > #assuntos {
+            background-color: gray;
+            padding: 10px;
+
+        }
+        
+        footer {
+        
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 6px;      
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        article {
+            padding: 5px;
+            background-color: lightgray;
+        }
+        article > aside {
+            background-color: rgb(131, 130, 130);
+        }
+        
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 15px;
+            background-color: white;
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Redes sociais Levi</h1>
+        <nav>
+            <a href="https://www.instagram.com/leviibarross/" target="_blank">Instagram</a>
+            <a href="https://www.youtube.com/channel/UC_g5D31X4IJ088ZOq5Uwj0Q" target="_blank">YouTube</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p> Esportes Política Tecnologia</p>
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At ipsam repudiandae blanditiis, iusto odit ex temporibus quo dignissimos debitis voluptatem! Cupiditate minus voluptate officia impedit facilis perspiciatis beatae, ipsam consequuntur.</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p class="footer">Desenvolvido por Levi</p>
+
+    </footer>
+    <div id="bola"></div>
+    
+</body>
+</html>

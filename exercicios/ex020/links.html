@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+</head>
+<style>
+    body{
+    font-family: Arial, Helvetica, sans-serif;    
+    }
+
+    a {
+        color: rgb(48, 155, 155);
+        text-decoration: none;
+        font-weight: bolder;
+    }
+
+    a:hover {
+        color: darkblue;
+        text-decoration: underline;
+        background-color: aqua;
+    }
+
+    a:active {
+        color: rgb(10, 240, 59);
+    }
+
+    a::after {
+        content: ' ⇤ ';
+    }
+
+    a::before {
+       content: ' ⇥ ';
+    }
+     
+</style>
+<body>
+    <ul>
+        <li> <a href="https://www.instagram.com/leviibarross/">Repositório GitHub</a></li>
+        <li> <a href="https://www.youtube.com/channel/UC_g5D31X4IJ088ZOq5Uwj0Q">Canal do YouTube</a></li>
+        <li><a href="https://github.com"> Site do CursoemVideo</a></li>
+    </ul>
+    
+</body>
+</html>
